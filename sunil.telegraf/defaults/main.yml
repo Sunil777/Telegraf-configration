@@ -1,0 +1,8 @@
+---
+# defaults file for telegraf-simple
+telegraf_influxdb_url: udp://10.50.3.114:8092   #### URL Of the data Source
+telegraf_influxdb_db_name: telegraf  
+proxy_environment:
+  https_proxy: http://10.50.8.11:3128   ######## Proxt to enable internet on the server
+  http_proxy: http://10.50.8.11:3128
+

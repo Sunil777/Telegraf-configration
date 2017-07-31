@@ -1,0 +1,18 @@
+---
+# meta file for sunil.telegraf
+dependencies: []
+
+galaxy_info:
+  author: sunil
+  description: >- 
+    A simplistic role for installing, configuring and running Telegraf on a 
+    Red Hat OS family host.
+  license: Apache
+  min_ansible_version: 2.1
+  platforms:
+    - name: EL
+      versions:
+      - 6
+      - 7
+  galaxy_tags:
+    - monitoring
